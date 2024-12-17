@@ -1,0 +1,18 @@
+/* Write your code here. */
+.background {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 150vh;
+}
+.e-sub-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  max-width: 1100px;
+}
+.background-2 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 950px;
+}
