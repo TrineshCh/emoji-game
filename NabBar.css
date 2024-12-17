@@ -1,0 +1,38 @@
+/* Write your code here. */
+.navbar-cont {
+  padding-left: 55px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-img {
+  height: 100px;
+  width: 100px;
+}
+.e-game-head-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.e-game-head {
+  color: #ffffff;
+  font-size: 22px;
+}
+.navbar-cont-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sub-navbar-cont {
+  display: flex;
+  align-items: center;
+}
+.score {
+  margin-right: 15px;
+}
+.top-score {
+  margin-left: 15px;
+}
