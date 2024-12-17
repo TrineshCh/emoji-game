@@ -1,0 +1,33 @@
+/* Write your code here. */
+.game-over-card {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.game-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.status-heading {
+  color: #ffffff;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.score-display {
+  color: #ffffff;
+  font-size: 20px;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  color: #000000;
+  border-radius: 25px;
+}
+.status-img {
+  height: 45vh;
+  width: 32vw;
+}
