@@ -1,12 +1,16 @@
 /* Write your code here. */
+/* 💡 [RYFT REVIEW - SUGGESTION] Consider using a more specific class name instead of navbar-cont */
 .navbar-cont {
+/* 💡 [RYFT REVIEW - SUGGESTION] 55px and 45px seem arbitrary, consider using a more flexible approach */
   padding-left: 55px;
   padding-right: 45px;
+/* ⚠️ [RYFT REVIEW - WARNING] Flexbox is not supported in older browsers, consider adding a fallback */
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .logo-img {
+/* 💡 [RYFT REVIEW - SUGGESTION] Height and width are not set as a percentage, consider using a relative unit */
   height: 100px;
   width: 100px;
 }
@@ -17,22 +21,27 @@
   align-items: center;
 }
 .e-game-head {
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a hardcoded color value, consider using a variable or a color function */
   color: #ffffff;
   font-size: 22px;
 }
+/* ⚠️ [RYFT REVIEW - WARNING] navbar-cont-2 seems to be a duplicate of navbar-cont, consider merging or removing */
 .navbar-cont-2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+/* ⚠️ [RYFT REVIEW - WARNING] sub-navbar-cont seems to be a duplicate of navbar-cont, consider merging or removing */
 .sub-navbar-cont {
   display: flex;
   align-items: center;
 }
 .score {
+/* 💡 [RYFT REVIEW - SUGGESTION] margin-right is not set for the score element, consider adding a value */
   margin-right: 15px;
 }
 .top-score {
+/* 💡 [RYFT REVIEW - SUGGESTION] margin-left is not set for the top-score element, consider adding a value */
   margin-left: 15px;
 }

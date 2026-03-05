@@ -1,17 +1,24 @@
 /* Write your code here. */
+/* 💡 [RYFT REVIEW - SUGGESTION] Class name 'background' is too generic, consider a more descriptive name. */
 .background {
   background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+/* 💡 [RYFT REVIEW - SUGGESTION] Using 'vh' unit for height may not be suitable for all screen sizes, consider using a more flexible unit. */
   min-height: 150vh;
+/* 💡 [RYFT REVIEW - SUGGESTION] The 'min-height' property may cause unexpected behavior when the content is shorter than the specified height, consider using 'height' instead. */
 }
 .e-sub-cont {
+/* 💡 [RYFT REVIEW - SUGGESTION] Consider using a more specific flexbox property, like 'flex-direction: column-reverse', for better control. */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a hardcoded value for 'max-width' may not be suitable for all screen sizes, consider using a more flexible unit or a media query. */
   max-width: 1100px;
 }
+/* 💡 [RYFT REVIEW - SUGGESTION] Class name 'background-2' is too generic, consider a more descriptive name. */
 .background-2 {
+/* 💡 [RYFT REVIEW - SUGGESTION] Using 'flex-wrap: wrap' may cause unexpected behavior when the content is too wide, consider using a more specific property. */
   display: flex;
   flex-wrap: wrap;
   max-width: 950px;

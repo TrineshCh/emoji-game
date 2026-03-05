@@ -1,21 +1,28 @@
 /* Write your code here. */
 .each-card-cont {
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a hardcoded color may not be suitable for accessibility. Consider using a more flexible approach. */
   background-color: #9796f0;
+/* 💡 [RYFT REVIEW - SUGGESTION] Opacity of 0.5 may not be suitable for all users. Consider adding a condition for users with low vision. */
   opacity: 0.5;
+/* ⚠️ [RYFT REVIEW - WARNING] Using `display: flex` without a fallback for older browsers may cause issues. Consider adding a polyfill. */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a hardcoded height and width may not be suitable for responsive design. Consider using a more flexible approach. */
   height: 250px;
   width: 250px;
   border-radius: 15px;
   margin: 5px;
 }
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a class name like `.emoji-btn` may not be descriptive. Consider using a more descriptive name. */
 .emoji-btn {
   background-color: transparent;
   border: none;
 }
+/* 💡 [RYFT REVIEW - SUGGESTION] Using a class name like `.emoji-img` may not be descriptive. Consider using a more descriptive name. */
 .emoji-img {
   height: 80px;
   width: 80px;
 }
+/* 💡 [RYFT REVIEW - SUGGESTION] Empty line without any content. Consider removing it. */
